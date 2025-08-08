@@ -1,1 +1,1 @@
-bucket_name="buildrun-sa-east-1-123456789012-dev"
+bucket_name="buildrun-sa-east-1-123456789012-prod"
