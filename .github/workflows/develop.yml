@@ -14,7 +14,7 @@ jobs:
         uses: ./.github/workflows/terraform.yml
         with:
             environment: "dev"
-            aws-assume-role-arn: "arn:aws:iam::663395718371:oidc-provider/token.actions.githubusercontent.com"
+            aws-assume-role-arn: "arn:aws:iam::663395718371:role/github-actions-galeite-repo"
             aws-region: "sa-east-1"
             aws-statefile-s3-bucket: "galeite-repo-sa-east-1-terraform-statefile"
             aws-lock-dynamodb-table: "galeite-repo-sa-east-1-terraform-lock"
