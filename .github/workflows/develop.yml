@@ -1,10 +1,8 @@
 name: "DEV DEPLOY"
-
 on:
     push:
         branches:
             - develop
-
 permissions:
     id-token: write
     contents: read
